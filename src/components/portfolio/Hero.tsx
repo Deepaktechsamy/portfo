@@ -32,7 +32,7 @@ export const Hero = () => {
             Frontend architecture specialist building production-grade systems with{' '}
             <span className="text-foreground font-medium">Next.js</span>,{' '}
             <span className="text-foreground font-medium">React</span>, and{' '}
-            <span className="text-foreground font-medium">TypeScript</span>. 
+            {/* <span className="text-foreground font-medium">TypeScript</span>.  */}
             Focused on Core Web Vitals, SEO, and scalable architectures.
           </p>
 
@@ -62,18 +62,14 @@ export const Hero = () => {
           </div>
 
           {/* Quick Stats */}
-          <div className="grid grid-cols-3 gap-8 max-w-lg mx-auto mt-16 pt-8 border-t border-border animate-fade-up" style={{ animationDelay: '0.3s' }}>
+          <div className="grid grid-cols-2 gap-8 max-w-lg mx-auto mt-16 pt-8 border-t border-border animate-fade-up" style={{ animationDelay: '0.3s' }}>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-foreground">1.5+</div>
-              <div className="text-sm text-muted-foreground mt-1">Years Exp</div>
+              <div className="text-2xl md:text-3xl font-bold text-foreground">3+</div>
+              <div className="text-sm text-muted-foreground mt-1">Months Exp</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-foreground">3K+</div>
+              <div className="text-2xl md:text-3xl font-bold text-foreground">10+</div>
               <div className="text-sm text-muted-foreground mt-1">Pages Fixed</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-foreground">8%</div>
-              <div className="text-sm text-muted-foreground mt-1">SEO Lift</div>
             </div>
           </div>
         </div>

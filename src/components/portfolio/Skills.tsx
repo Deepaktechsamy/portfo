@@ -1,19 +1,15 @@
 const skillGroups = [
   {
     category: 'Frontend',
-    skills: ['React.js', 'Next.js', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
+    skills: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Express.js', 'Hapi.js', 'REST APIs', 'JWT Auth', 'Elasticsearch'],
-  },
-  {
-    category: 'DevOps & Tools',
-    skills: ['Docker', 'Jenkins', 'NGINX', 'Git', 'Grafana', 'Linux'],
+    skills: ['Node.js', 'Express.js', 'REST APIs', 'JWT Auth'],
   },
   {
     category: 'Analytics & Growth',
-    skills: ['Mixpanel', 'GrowthBook', 'Google Search Console', 'Core Web Vitals'],
+    skills: ['Mixpanel', 'GrowthBook'],
   },
 ];
 

@@ -5,20 +5,20 @@ const socialLinks = [
   {
     icon: Mail,
     label: 'Email',
-    href: 'mailto:austinjr74@gmail.com',
-    username: 'austinjr74@gmail.com',
+    href: 'mailto:deepaktechsol@gmail.com',
+    username: 'deepaktechsol@gmail.com',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/austinjr74/',
-    username: 'austinjr74',
+    href: 'https://www.linkedin.com/in/deepak303/',
+    username: 'deepak303',
   },
   {
     icon: Github,
     label: 'GitHub',
-    href: 'https://github.com/austinjr74',
-    username: 'austinjr74',
+    href: 'https://github.com/Deepaktechsamy',
+    username: 'Deepaktechsamy',
   },
 ];
 
@@ -58,7 +58,7 @@ export const Footer = () => {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-border">
             <p className="text-sm text-muted-foreground">
-              Built with performance in mind. © {new Date().getFullYear()} Austin Jose R
+              Built with performance in mind. © {new Date().getFullYear()} Deepak V
             </p>
           </div>
         </div>

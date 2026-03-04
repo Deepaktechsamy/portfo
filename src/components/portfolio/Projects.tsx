@@ -4,39 +4,26 @@ import { Badge } from '@/components/ui/badge';
 const projects = [
   {
     icon: Server,
-    title: 'CMS-Based Legal Services Platform',
-    problem: 'Engineering team bottleneck for content updates; slow time-to-market for new pages.',
+    title: 'E-COMMERCE WEBSITE',
+    problem: 'Our eCommerce platform is designed to provide a seamless shopping experience, with easy navigation, detailedproduct descriptions, highresolution images, and secure checkout options',
     decisions: [
-      'SSR for SEO-critical pages to maximize crawlability',
-      'CMS-driven layouts with API-first content delivery',
-      'Component library for consistent UI across dynamically generated pages',
+      'Built a full-stack e-commerce app with React, Node.js & MongoDB featuring auth, product catalog & cart management',
+      'Developed RESTful APIs with JWT authentication, role-based access control, and deployed frontend/backend on Vercel',
+      'Implemented cart system, order management & product filtering with Cloudinary image uploads and admin controls',
     ],
-    impact: 'Reduced engineering dependency for content updates by 80%, enabling marketing team to ship pages independently.',
-    stack: ['Next.js', 'React', 'TypeScript', 'REST APIs', 'Headless CMS'],
+    impact: 'Built a responsive MERN-stack e-commerce application handling end-to-end user transactions.',
+    stack: [ 'React','Tailwind CSS', 'REST APIs','MongoDB','Node.js','JWT Authentication','Cloudinary Image Uploads','Admin Controls','Vercel Deployment'],
   },
   {
-    icon: Video,
-    title: 'Video Consultation Web Application',
-    problem: 'Need for real-time legal consultations with reliable, low-latency video.',
+    icon: Server,
+    title: 'E-Drive Learning Platform',
+    problem: 'A secure, full-stack educational portal featuring role-based technical resource management and an integrated local AI learning assistant.',
     decisions: [
-      'WebRTC for peer-to-peer video with fallback TURN servers',
-      'WebSocket for signaling and real-time state synchronization',
-      'Integrated authentication and payment flow',
+      'Developed a role-based educational platform using React.js and Express, enabling secure subject-specific file uploads and resource management for staff and students',
+      'Integrated a local AI chatbot (GPT-4All) directly into the application interfaces, providing instant, intelligent learning assistance to students across various technical modules',
     ],
-    impact: 'Delivered production-ready video consultations with <200ms latency and seamless payment integration.',
-    stack: ['React', 'WebRTC', 'WebSockets', 'Node.js', 'Payment Gateway'],
-  },
-  {
-    icon: Search,
-    title: 'Lawyers Listing & Public Q&A Platform',
-    problem: 'Large datasets of lawyers and Q&A content requiring fast search and SEO visibility.',
-    decisions: [
-      'Server-rendered pages for search engine indexing',
-      'Elasticsearch for sub-second search across 100K+ records',
-      'JWT-based authentication with role-based access',
-    ],
-    impact: 'Achieved 99.9% uptime with <100ms search response times serving high-traffic legal queries.',
-    stack: ['Next.js', 'Hapi.js', 'Elasticsearch', 'JWT', 'PostgreSQL'],
+    impact: 'Streamlined academic resource access and student engagement by developing an AI-integrated portal for centralized study materials, attendance tracking, and technical blogging.',
+    stack: ['React', 'CSS', 'Node.js', 'Express.js', 'JWT Authentication', 'MongoDB', 'Admin Controls', 'Vercel Deployment'],
   },
 ];
 
@@ -91,7 +78,7 @@ export const Projects = () => {
                     {/* Problem */}
                     <div>
                       <h4 className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-                        Problem
+                        Description
                       </h4>
                       <p className="text-muted-foreground">{project.problem}</p>
                     </div>

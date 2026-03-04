@@ -51,11 +51,6 @@ export const About = () => {
                 implementing incremental static regeneration for frequently updated content, 
                 I prioritize solutions that scale.
               </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                I don't just write code—I build systems that empower non-engineers through 
-                CMS-driven architectures, reduce operational overhead, and improve search 
-                visibility through technical SEO implementations.
-              </p>
             </div>
 
             {/* Right Column - Highlights */}

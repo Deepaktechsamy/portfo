@@ -2,22 +2,22 @@ import { GraduationCap, Award } from 'lucide-react';
 
 const education = [
   {
-    degree: 'Bachelor of Engineering - EEE',
-    institution: 'Sri Eshwar College of Engineering',
-    period: '2020 – 2024',
-    grade: 'CGPA: 8.67',
+    degree: 'Bachelor of Engineering - CSE',
+    institution: 'Sree Sowdambika College of Engineering',
+    period: '2022 – 2026',
+    grade: 'CGPA: 7.98',
   },
   {
     degree: 'Higher Secondary Certificate (HSC)',
-    institution: "St. Peter's Matriculation Higher Secondary School",
-    period: '2019 – 2020',
-    grade: '71.5%',
+    institution: "S.H.N.Edward Higher Secondary School",
+    period: '2020 – 2022',
+    grade: '76%',
   },
   {
     degree: 'Secondary School Leaving Certificate (SSLC)',
-    institution: "St. Peter's Matriculation Higher Secondary School",
-    period: '2017 – 2018',
-    grade: '91.4%',
+    institution: "S.H.N.Edward Higher Secondary School",
+    period: '2019 – 2020',
+    grade: '70%',
   },
 ];
 
